@@ -1,0 +1,68 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin:0;
+}
+.conteiner{
+	max-width:960px;
+	margin: 0 auto;
+	padding: 0 25; 
+}
+.clear{
+	clear: both;
+}
+.w50{
+	width: 50%;
+	float: left;
+	padding: 0 10px;
+}
+.w100{
+	width: 100%;
+	float: left;
+	padding: 0 10px;
+}
+/*Estilos*/
+body{
+	background-color:lightgray;
+}
+h2{
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	border-bottom: 1px solid blue;
+	text-transform: uppercase;
+	padding: 10px 0;
+}
+.form-group{
+	display: block;
+	margin-top: 8px;
+	color: white;
+}
+.form-group input[type=text]{
+	width: 100%;
+	padding-left:8px;
+	height: 40px;
+	margin-top: 6px;
+	border: 1px solid black; 
+}
+.form-group input[type=submit]{
+	width: 140px;
+	height: 40px;
+	background-color: blue;
+	color: white;
+	border: 0;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.form-group textarea{
+	width: 100%;
+	padding: 10px;
+	height: 120px;
+	border: 1px solid black;
+}
+
+@media screen and (max-width: 500px){
+	.w50{
+		width: 100%;
+	}
+}
